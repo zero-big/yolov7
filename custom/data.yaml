@@ -1,0 +1,13 @@
+train: custom/train/images
+val: custom/valid/images
+test: custom/test/images
+
+nc: 1
+names: ['non_ferrous']
+
+roboflow:
+  workspace: nonferrous
+  project: non_ferrous
+  version: 12
+  license: MIT
+  url: https://universe.roboflow.com/nonferrous/non_ferrous/dataset/12
